@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#score1,
+#score2,
+#health1,
+#health2,
+#win1,
+#win2,
+#result,
+#tournament-winner,
+#restart-btn,
+#winner1,
+#winner2,
+#tournament_number,
+#match_number {
+  display: none;
+}
+
+#start {
+  display: flex;
+  align-content: space-around;
+  align-content: center;
+  flex-direction: column;
+  flex-flow: column;
+  align-items: center;
+  margin-top: -62vh;
+  justify-content: space-between;
+}
+
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 80%;
+  max-height: 100vh;
+  margin: 15px 15px;
+}
+
+#app {
+  width: auto;
+  /* text-align: center; */
+  padding: 15px;
+}
+
+#play {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: end;
+  flex-wrap: nowrap;
+  margin-top: 35vh;
+  justify-content: space-around;
+  /* margin-left: 13px; */
+  padding: 2px;
+}
+
+#result {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: end;
+  flex-wrap: nowrap;
+  margin-top: 12vh;
+  justify-content: space-around;
+  margin-left: 13px;
+  padding: 2px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.message {
+  font-size: 40px;
+}
+
+#start-btn {
+  padding: 6px;
+  background-color: #4ec84e;
+  border-radius: 4px;
+}
+
+.player_name {
+  font-size: 31px;
+  padding: 10px;
+}
+
+.info {
+  font-size: 17px;
+  padding: 16px;
+}
+
+.shoot_btn {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ef0c0c;
+}
+
+.icon_image {
+  width: 24px;
+  height: 25px;
+}
